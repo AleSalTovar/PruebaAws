@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 // Add Modules
 builder.Services.AddCoreModules();
 builder.Services.AddInfrastructureModules();
-//builder.WebHost.UseUrls("http://*:80");
+builder.WebHost.UseUrls("http://*:80");
 
 builder.Services.AddCors();
 
